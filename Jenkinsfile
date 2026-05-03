@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git url:'<URL>', branch: 'main'
+                git url:'https://github.com/b0uwe322/PR_with_Jenkins', branch: 'main'
             }
         }
         stage('Install') {
